@@ -1,0 +1,137 @@
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 20px;
+    background-color: rgba(248, 250, 255, 1);
+    z-index: 1;
+}
+
+
+.faq-div-2 h1 {
+    margin-bottom: 10px;
+}
+
+
+.green-bar {
+    height: 1px;
+    background-color: rgba(151, 210, 139, 1);
+    width: 100%;
+}
+
+
+.faq-div-1 {
+    width: 100%;
+}
+
+
+.faq-content {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 10px;
+}
+
+
+.faq-item {
+    display: flex;
+    align-items: center;
+   
+}
+
+.faq-item img {
+    margin-right: 10px;
+    height: fit-content;
+}
+
+.mobile-header {
+    color: rgba(23, 61, 51, 1);
+    font-family: Oswald;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.faq-header {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+    text-align: justify;
+}
+
+.item-header {
+    display: flex;
+    align-items: center;
+}
+
+.answer {
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.04em;
+    text-align: justify;
+    margin-left: 38px;
+}
+
+.faq-div-2
+ {
+    display: none;
+}
+
+.txt-end{
+    display: block;
+    text-align: center;
+}
+
+.faq-end {
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.04em;
+    
+}
+
+@media screen and (min-width: 768px) {
+    .txt-end,
+    .mobile-header {
+        display: none;
+    }
+
+   .faq-div-2 {
+         display: block;
+         width: 347px;
+         margin-left: auto;
+         position: relative;
+     }
+
+    .faq-div-1 {
+        width: 342px;
+    }
+
+    .faq-container {
+        flex-direction: row;
+    }
+
+    .desktop-header{
+        font-family: Oswald;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .faq-divider {
+        position:absolute;
+        bottom: 0;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,90 @@
+
+.electricity-component {
+    text-align: center;
+    padding: 20px;
+    background-color:  rgba(248, 250, 255, 1);
+   
+}
+
+.electricity-text {
+    font-family: Oswald;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.green-line {
+    width: 1px;
+    height: 50px;
+   
+    background-color: rgba(151, 210, 139, 1);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(151, 210, 139, 1);
+}
+
+.unit {
+    font-family: Oswald;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  rgba(23, 61, 51, 1);
+    margin-left: 5px;
+}
+
+@media (min-width: 768px) {
+    .electricity-text {
+        font-size: 36px;
+        line-height: 36px;  
+    }
+
+    .number { 
+        font-size: 100px;              
+      }
+
+    .green-line {
+        width: 1px;
+        height: 87px;     
+     }
+
+    .unit {           
+      font-size: 28px;        
+      }
+
+}
+    
+@media (min-width: 1280px) {
+    .electricity-text {
+        font-size: 48px;
+        ine-height: 48px;
+    }
+
+    .number {
+        font-size: 164px;
+    }
+
+
+    .unit {
+        font-size: 48px;
+    }
+
+}

@@ -1,0 +1,222 @@
+.main-values-section {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(248, 250, 255, 1);
+    
+   
+}
+
+h1 {
+       font-family: Oswald;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+}
+
+.worker,
+.worker2 {
+    display: none;
+}
+
+.main-values-text {
+    margin-bottom: 20px;
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    text-align: justify;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+
+}
+
+.value-container {
+    width: 148px;
+    height: 197px;
+    background-color: rgba(234, 237, 241, 1);
+    overflow: hidden;
+   
+ 
+}
+
+.value-header {
+    display: flex;
+    align-items: baseline;
+    align-items: center;
+}
+
+.value-icon{
+   width: 16px; 
+   height: 16px;
+   margin-right: 5px;
+   padding-left: 10px;
+}
+.value-title {
+    font-family: Oswald;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+
+.value-underline {
+    margin: 20px;
+    height: 1px;
+    background-color: rgba(151, 210, 139, 1);
+    margin-bottom: 35px;
+}
+
+
+
+.value-description {
+   
+    font-size: 14px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.04em;
+    
+}
+
+@media (min-width: 768px) {
+
+  
+    .values-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        font-family: Oswald;
+    }
+
+    .value-icon {
+
+        width: 24px;
+        height: 24px;
+    }
+
+    .value-title {
+        font-size: 18px;
+    }
+    .vertical-line {
+        width: 1px;
+        height: 100%;
+        background-color: rgba(151, 210, 139, 1);
+        margin-right: 10px;
+    }
+
+    .main-values-text {
+        
+        display: flex;
+        width: 342px;
+        height: 114px;
+    }
+    
+   h1 {
+  
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(23, 61, 51, 1);
+   }
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    margin-top: 100px;
+    width: 100%;
+    gap: 20px;   
+    
+}
+
+.values-grid:first-child {
+    width: 159px;
+}
+.value-container {   
+    width: 159px;   
+}
+
+.worker
+
+ {
+    display: block;
+    width: 342px;
+    height: 197px;
+}
+
+}
+
+@media (min-width: 1280px) {
+
+
+h1 {
+    font-size: 48px;
+    width: 365px;
+    height: 96px;
+    line-height: 48px;
+    }
+
+
+.worker {
+    display: none;
+}
+.worker2 {
+        display: block;
+        
+    }
+
+.main-values-text {
+        
+    display: flex;
+    width: 459px;
+    height: 95px;
+    font-size: 16px;
+        }
+
+.value-container {
+ width: 274px;
+ height: 339px;
+    }
+
+
+ .value-title {
+     font-size: 28px;
+    line-height: 48px;
+     
+    
+ }
+
+ .value-description {
+    font-size: 16px;
+    padding: 10px;
+    
+ }
+
+ .value-underline {
+     margin-top: 100px;
+     margin-bottom: 20px;
+ }
+
+  .vertical-line {
+      width: 1px;
+      height: 100%;
+      background-color: rgba(151, 210, 139, 1);
+      margin-right: 100px;
+  }
+}

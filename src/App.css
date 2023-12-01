@@ -1,0 +1,11 @@
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Выравнивание по центру по горизонтали */
+    justify-content: space-between;
+    /* Равномерное распределение между компонентами */
+    min-height: 100vh;
+    /* Минимальная высота всего экрана */
+}
