@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ecosolution/static/css/main.d7bf60ca.css",
+    "main.js": "/ecosolution/static/js/main.d6cdc362.js",
+    "static/js/787.60a0fd82.chunk.js": "/ecosolution/static/js/787.60a0fd82.chunk.js",
+    "static/media/mill-big.png": "/ecosolution/static/media/mill-big.51c7bdad642b82b3eb40.png",
+    "static/media/S2.png": "/ecosolution/static/media/S2.513fc38ba8edaf8da7ef.png",
+    "static/media/S3.png": "/ecosolution/static/media/S3.638921b793ade92fddcf.png",
+    "static/media/worker2.png": "/ecosolution/static/media/worker2.98ca6953313075ce09c0.png",
+    "static/media/S5.png": "/ecosolution/static/media/S5.96d23b48dce2ac09a5ca.png",
+    "static/media/workers2.png": "/ecosolution/static/media/workers2.e01fa3d72a6401c56bbc.png",
+    "static/media/S1.png": "/ecosolution/static/media/S1.41f8a285500d8d5c69b2.png",
+    "static/media/S4.png": "/ecosolution/static/media/S4.8930a5c3492969329239.png",
+    "static/media/mill.png": "/ecosolution/static/media/mill.03e6c5d036ff35f05dde.png",
+    "static/media/worker.png": "/ecosolution/static/media/worker.739a1dcacf72a3c034e0.png",
+    "static/media/workers-yellow.png": "/ecosolution/static/media/workers-yellow.80063225baa22514bc03.png",
+    "index.html": "/ecosolution/index.html",
+    "main.d7bf60ca.css.map": "/ecosolution/static/css/main.d7bf60ca.css.map",
+    "main.d6cdc362.js.map": "/ecosolution/static/js/main.d6cdc362.js.map",
+    "787.60a0fd82.chunk.js.map": "/ecosolution/static/js/787.60a0fd82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7bf60ca.css",
+    "static/js/main.d6cdc362.js"
+  ]
+}
